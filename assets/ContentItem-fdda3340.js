@@ -1,0 +1,2 @@
+import{s,x as a,a as c,h as i,y as _,p as l,d as e,f as r,z as m,t as u}from"./index-72ed02e0.js";const p={alt:"",class:"content__item-img"},d={class:"content__item-span"},f={__name:"ContentItem",props:["content","type"],setup(t){return(y,h)=>{const n=s("router-link"),o=a("lazy");return c(),i(n,{class:"content__item",to:`/${t.type}/${t.content.id}`},{default:_(()=>[l(e("img",p,null,512),[[o,r(m)+t.content.poster_path]]),e("span",d,u(t.content.title||t.content.name),1)]),_:1},8,["to"])}}};export{f as _};
+//# sourceMappingURL=ContentItem-fdda3340.js.map
